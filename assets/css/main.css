@@ -1,0 +1,20 @@
+/**
+ * Main Stylesheet
+ * 
+ * This file imports all the CSS files in the correct order.
+ * Import this file in your HTML to use the design system.
+ */
+
+/* 1. Design Tokens - CSS Variables */
+@import url('variables.css');
+
+/* 2. Reset - Normalize styles across browsers */
+@import url('reset.css');
+
+/* 3. Utilities - Utility classes for rapid development */
+@import url('utilities.css');
+
+/* 4. Components - Reusable component styles */
+@import url('components.css');
+
+/* 5. Custom Styles - Add your custom styles below */
