@@ -56,7 +56,7 @@ include dirname(__DIR__) . '/includes/header.php';
     <section class="mb-16">
         <h2 class="text-3xl font-bold mb-6 border-b pb-4">Cards</h2>
         
-        <div class="grid gap-6" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+        <div class="grid gap-6 grid-auto-fit">
             <div class="card">
                 <div class="card-header">
                     <h3 class="card-title">Basic Card</h3>
@@ -278,7 +278,7 @@ include dirname(__DIR__) . '/includes/header.php';
                 <h3 class="card-title">Shadows</h3>
             </div>
             <div class="card-body">
-                <div class="grid gap-6" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+                <div class="grid gap-6 grid-auto-fit-sm">
                     <div class="bg-white p-6 rounded shadow-sm">Shadow SM</div>
                     <div class="bg-white p-6 rounded shadow">Shadow Base</div>
                     <div class="bg-white p-6 rounded shadow-md">Shadow MD</div>

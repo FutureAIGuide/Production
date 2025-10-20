@@ -9,6 +9,10 @@ $page_title = 'Contact - ' . SITE_NAME;
 $page_description = 'Get in touch with us';
 
 // Handle form submission
+// NOTE: In production, add CSRF token validation for security
+// Example: 
+// - Generate token: $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+// - Validate: if (!hash_equals($_SESSION['csrf_token'], $_POST['csrf_token'])) { ... }
 $success_message = '';
 $error_message = '';
 
@@ -45,7 +49,7 @@ include dirname(__DIR__) . '/includes/header.php';
 </div>
 
 <div class="container py-16">
-    <div class="grid gap-12" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+    <div class="grid gap-12 grid-auto-fit">
         <!-- Contact Information -->
         <div>
             <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>

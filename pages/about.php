@@ -41,7 +41,7 @@ include dirname(__DIR__) . '/includes/header.php';
     <section class="mb-16">
         <h2 class="text-4xl font-bold text-center mb-12">What Makes Us Different</h2>
         
-        <div class="grid gap-8" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+        <div class="grid gap-8 grid-auto-fit">
             <div class="card">
                 <div class="card-body">
                     <div class="text-4xl mb-4">🎨</div>
@@ -115,7 +115,7 @@ include dirname(__DIR__) . '/includes/header.php';
         <div class="bg-gray-50 p-8 rounded-lg">
             <h2 class="text-4xl font-bold text-center mb-12">Technology Stack</h2>
             
-            <div class="grid gap-8" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+            <div class="grid gap-8 grid-auto-fit-lg">
                 <div class="text-center">
                     <h3 class="text-xl font-semibold mb-3 text-primary">HTML5</h3>
                     <p class="text-gray-600">Semantic markup for structure and accessibility</p>

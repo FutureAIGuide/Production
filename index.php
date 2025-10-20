@@ -34,7 +34,7 @@ include __DIR__ . '/includes/header.php';
     <div class="container">
         <h2 class="text-4xl font-bold text-center mb-12">Key Features</h2>
         
-        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--spacing-8);">
+        <div class="grid grid-auto-fit gap-8">
             <!-- Feature 1 -->
             <div class="card">
                 <div class="card-body">

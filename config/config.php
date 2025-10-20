@@ -27,7 +27,10 @@ define('DB_PASS', '');
 // Timezone
 date_default_timezone_set('UTC');
 
-// Error Reporting (set to 0 in production)
+// Error Reporting
+// WARNING: Disable error reporting in production environments
+// Set error_reporting(0) and ini_set('display_errors', 0) for production
+// Current settings are for development only
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
